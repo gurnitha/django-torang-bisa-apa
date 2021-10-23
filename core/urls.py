@@ -11,6 +11,9 @@ urlpatterns = [
     # decors
     path('', include('apps.decors.urls', namespace='decors')),
 
+    # projects
+    path('', include('apps.projects.urls', namespace='projects')),
+
     # CKEditor
     path('ckeditor/', include('ckeditor_uploader.urls')),
 

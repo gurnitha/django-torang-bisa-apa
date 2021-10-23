@@ -428,7 +428,13 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/views.py
 
 
+#### 17.3 Membuat urls untuk project_list dan project_detail
 
+        modified:   README.md
+        modified:   apps/projects/templates/projects/project_list.html
+        new file:   apps/projects/urls.py
+        modified:   core/urls.py
+        modified:   templates/shared/header.html
 
 
 
