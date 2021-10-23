@@ -231,14 +231,17 @@ Aplikasi untuk orang Indonesia yang kreatif.
         2. Buat model Skill
         3. Jalankan perintah: makemigrations
         4. Jalankan perintah: migrate
-        
+
         modified:   README.md
         new file:   apps/profiles/migrations/0001_initial.py
         modified:   apps/profiles/models.py
         new file:   static/assets/images/favicon-tbs-new.jpg
 
 
+#### 10.2 Daftarkan model pada admin.py
 
+        modified:   README.md
+        modified:   apps/profiles/admin.py
 
 
 
