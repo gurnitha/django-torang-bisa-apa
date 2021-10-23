@@ -506,7 +506,11 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/views.py
 
 
+#### 20.3 Menghubungkan project_list dengan halaman profile pemilik (owner) project 
 
+        modified:   README.md
+        modified:   apps/projects/templates/projects/project_list.html
+        modified:   apps/projects/views.py
 
 
 

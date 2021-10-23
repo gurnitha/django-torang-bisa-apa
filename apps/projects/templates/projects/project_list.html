@@ -33,34 +33,59 @@
                     <!-- Project card -->
                     <div class="column">
                         <div class="card project">
-                            <a href="{% url 'projects:project_detail' %}" class="project">
-                                <img class="project__thumbnail" src="{{project.featured_image.url}}" alt="project thumbnail" />
-                                <div class="card__body">
-                                    <h3 class="project__title">{{project.title|title}}</h3>
-                                    <p>
-                            <a class="project__author" href="{% url 'decors:profile_list' %}">{{project.owner|title}}</a></p>
-                            <p class="project--rating">
-                            <span style="font-weight: bold;">{{project.vote_ratio}}%</span> Postitive
-                            Feedback ({{project.vote_total}} Vote{{project.vote_total|pluralize:"s"}})
-                            </p>
 
-                            <!-- Tags -->
-                            <div class="project__tags">
-                                {% if projects %}
-                                    {% for tag in project.tags.all %}
+                            <a href="{% url 'projects:project_detail' %}" class="project">
+
+                                <!-- Project image -->
+                                <img class="project__thumbnail" 
+                                    src="{{project.featured_image.url}}" 
+                                    alt="project thumbnail" />
+                                
+                                <!-- Card -->
+                                <div class="card__body">
+
+                                    <!-- Project title -->
+                                    <h3 class="project__title">{{project.title|title}}</h3>
+                                    
+                                    <!-- Project owner and link to its own profile -->
+                                    <p>
+                                        <a class="project__author" 
+                                            href="{% url 'decors:profile_detail' project.owner.id %}">
+                                            {{project.owner|title}}
+                                        </a>
+                                    </p>
+
+                                    <!-- Vote -->
+                                    <p class="project--rating">
+                                        <!-- Vote ratio -->
+                                        <span style="font-weight: bold;">
+                                            {{project.vote_ratio}}%
+                                        </span> 
+                                        <!-- Vote total prular/singular-->
+                                        Postitive Feedback 
+                                        ({{project.vote_total}} 
+                                        Vote{{project.vote_total|pluralize:"s"}})
+                                    </p>
+
+                                    <!-- Tags -->
+                                    <div class="project__tags">
+                                    {% if projects %}
+                                        {% for tag in project.tags.all %}
                                         <span class="tag tag--pill tag--main">
                                         <small>{{tag|title}}</small>
                                         </span>
-                                    {% endfor %}
-                                {% else %}
-                                    <span class="tag tag--pill tag--main">
-                                    <small>No tags found.</small>
-                                {% endif %}
-                            </div>
-                            <!-- END Tags -->
+                                        {% endfor %}
+                                    {% else %}
+                                        <span class="tag tag--pill tag--main">
+                                        <small>No tags found.</small>
+                                    {% endif %}
+                                    </div>
+                                    <!-- END Tags -->
 
-                            </div>
+                                </div>
+                                <!-- END Card -->
                             </a>
+                            
                         </div>
                     </div>
                     <!-- Project card -->
