@@ -265,6 +265,16 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/profiles/models.py
 
 
+### 12. DJANGO CKEditor
+### ---------------------------------------
+
+
+#### 12.1 Install Django CKEditor
+
+        modified:   README.md
+        modified:   apps/profiles/admin.py
+        modified:   core/settings.py
+        modified:   core/urls.py
 
 
 

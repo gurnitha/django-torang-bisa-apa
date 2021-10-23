@@ -10,6 +10,10 @@ urlpatterns = [
     
     # profiles
     path('', include('apps.profiles.urls', namespace='profiles')),
+
+    # CKEditor
+    path('ckeditor/', include('ckeditor_uploader.urls')),
+
     path('admin/', admin.site.urls),
 ]
 
