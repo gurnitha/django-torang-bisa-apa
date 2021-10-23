@@ -219,6 +219,25 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   templates/base.html
 
 
+### 10. MODEL: PROFILE DAN SKILL
+### ---------------------------------------
+
+
+#### 10.1 Membuat model Profile dan Skill serta jalan migrasi
+
+        Langkah:
+
+        1. Buat model Profile
+        2. Buat model Skill
+        3. Jalankan perintah: makemigrations
+        4. Jalankan perintah: migrate
+        
+        modified:   README.md
+        new file:   apps/profiles/migrations/0001_initial.py
+        modified:   apps/profiles/models.py
+        new file:   static/assets/images/favicon-tbs-new.jpg
+
+
 
 
 
