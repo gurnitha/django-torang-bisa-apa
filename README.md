@@ -54,11 +54,24 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   core/settings.py
 
 
+### 4. DATABASE: MYSQL
+### ---------------------------------------
 
 
+#### 4.1 Membuat database dan menghubungkannya dengan aplikasi
 
+        Langkah:
 
-
+        1. Membuat database menggunakan mysql
+        2. Menginstall mysqlclient
+        3. Menginstall django-environ
+        4. Membuat .env file di dalam 'core'
+        5. Mensetup parameter pada .env file
+        6. Mengsetup parameter environment pada core/settings.py
+        7. Mensetup parameter database pada core/setting.py
+        
+        modified:   README.md
+        modified:   core/settings.py
 
 
 
