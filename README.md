@@ -499,7 +499,11 @@ Aplikasi untuk orang Indonesia yang kreatif.
         new file:   static/images/profiles/drona.PNG
 
 
+#### 20.2 Retrieve dan load data tags pada project_list
 
+        modified:   README.md
+        modified:   apps/projects/templates/projects/project_list.html
+        modified:   apps/projects/views.py
 
 
 

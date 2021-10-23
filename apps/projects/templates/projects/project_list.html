@@ -43,17 +43,22 @@
                             <span style="font-weight: bold;">{{project.vote_ratio}}%</span> Postitive
                             Feedback ({{project.vote_total}} Vote{{project.vote_total|pluralize:"s"}})
                             </p>
+
+                            <!-- Tags -->
                             <div class="project__tags">
-                            <span class="tag tag--pill tag--main">
-                            <small>NextJS</small>
-                            </span>
-                            <span class="tag tag--pill tag--main">
-                            <small>GraphQL</small>
-                            </span>
-                            <span class="tag tag--pill tag--main">
-                            <small>TypeScript</small>
-                            </span>
+                                {% if projects %}
+                                    {% for tag in project.tags.all %}
+                                        <span class="tag tag--pill tag--main">
+                                        <small>{{tag|title}}</small>
+                                        </span>
+                                    {% endfor %}
+                                {% else %}
+                                    <span class="tag tag--pill tag--main">
+                                    <small>No tags found.</small>
+                                {% endif %}
                             </div>
+                            <!-- END Tags -->
+
                             </div>
                             </a>
                         </div>

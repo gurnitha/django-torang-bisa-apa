@@ -4,14 +4,16 @@
 from django.shortcuts import render
 
 # Locals
-from apps.projects.models import Project
+from apps.projects.models import Project, Tag
 
 
 # project_list view
 def project_list(request):
+	tags = Tag.objects.all()
 	projects = Project.objects.all()
 	page_title = 'Project List'
 	context = {
+		'tags':tags,
 		'projects':projects,
 		'title':page_title
 	}
