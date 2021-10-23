@@ -390,7 +390,7 @@ Aplikasi untuk orang Indonesia yang kreatif.
               menjadi -> name = 'apps.projects'
         4. Meregistrasi app projects pada core/settings.py
         5. Menjalan server untuk menguji
-        
+
         modified:   README.md
         new file:   apps/projects/__init__.py
         new file:   apps/projects/admin.py
@@ -401,6 +401,14 @@ Aplikasi untuk orang Indonesia yang kreatif.
         new file:   apps/projects/views.py
         modified:   core/settings.py
 
+
+#### 16.2 House keeping - modifikasi links pada decors app, migrasi
+
+        modified:   README.md
+        new file:   apps/decors/migrations/0001_initial.py
+        renamed:    apps/decors/templates/profiles/profile_detail.html -> apps/decors/templates/decors/profile_detail.html
+        renamed:    apps/decors/templates/profiles/profile_list.html -> apps/decors/templates/decors/profile_list.html
+        modified:   templates/shared/header.html
 
 
 

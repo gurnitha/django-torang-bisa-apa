@@ -1,4 +1,4 @@
-<!-- apps/profiles/templates/profiles/profile_list.html -->
+<!-- apps/decors/templates/decors/profile_list.html -->
 {% extends 'base.html' %}
 {% block title %}{{title}}{% endblock title %}
 {% load static %}
@@ -36,7 +36,7 @@
                     <!-- Profile card -->
                     <div class="column card">
                         <div class="dev">
-                            <a href="{% url 'profiles:profile_detail' profile.id %}" class="card__body">
+                            <a href="{% url 'decors:profile_detail' profile.id %}" class="card__body">
                                 <div class="dev__profile">
                                     <img class="avatar avatar--md" src="{{profile.profile_image.url}}" alt="image" />
                                     <div class="dev__meta">
