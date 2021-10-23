@@ -437,7 +437,11 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   templates/shared/header.html
 
 
+#### 17.4 Menambahkan template untuk project_list dan project_detail
 
+        modified:   README.md
+        modified:   apps/projects/templates/projects/project_detail.html
+        modified:   apps/projects/templates/projects/project_list.html
 
 
 
