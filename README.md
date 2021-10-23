@@ -47,6 +47,11 @@ Aplikasi untuk orang Indonesia yang kreatif.
         new file:   apps/profiles/views.py
 
 
+#### 3.3 Install django app 'profiles' pada django proyek 'core'
+
+        modified:   README.md
+        modified:   apps/profiles/apps.py
+        modified:   core/settings.py
 
 
 
