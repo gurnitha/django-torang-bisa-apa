@@ -254,11 +254,15 @@ Aplikasi untuk orang Indonesia yang kreatif.
 
         1. Jalankan perintah: python manage.py createsuperuser
         dan ikuti perintah selanjutnya
-        
+
         modified:   README.md
 
 
+#### 11.2 Mengupdate model
 
+        modified:   README.md
+        new file:   apps/profiles/migrations/0002_auto_20211023_1222.py
+        modified:   apps/profiles/models.py
 
 
 
