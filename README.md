@@ -160,8 +160,14 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/profiles/templates/profiles/profile_list.html
 
 
+### 8. TEMPLATES INHERITANCE
+### ---------------------------------------
 
 
+#### 8.1 Membuat base (layout) file
+
+        modified:   README.md
+        new file:   templates/base.html
 
 
 
