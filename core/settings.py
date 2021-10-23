@@ -48,6 +48,7 @@ INSTALLED_APPS = [
 
     # Third party apps
     'ckeditor',
+    'debug_toolbar',
 
     # Locals
     'apps.profiles.apps.ProfilesConfig',
@@ -61,6 +62,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware', #  new <--here
 ]
 
 ROOT_URLCONF = 'core.urls'
@@ -227,3 +229,7 @@ CKEDITOR_CONFIGS = {
         ]),
     }
 }
+
+
+# Toolbar
+INTERNAL_IPS = ['127.0.0.1',]

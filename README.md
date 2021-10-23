@@ -277,7 +277,15 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   core/urls.py
 
 
+### 13. DJANGO DEBUG TOOLBAR
+### ---------------------------------------
 
+
+#### 13.1 Install django-debug-toolbar
+
+        modified:   README.md
+        modified:   core/settings.py
+        modified:   core/urls.py
 
 
 
