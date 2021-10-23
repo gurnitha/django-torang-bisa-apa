@@ -306,7 +306,11 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/profiles/views.py
 
 
+#### 14.3 READ data skill di db dan display data pada profile_list page
 
+        modified:   README.md
+        modified:   apps/profiles/templates/profiles/profile_list.html
+        modified:   apps/profiles/views.py
 
 
 
