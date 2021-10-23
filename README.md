@@ -182,6 +182,14 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/profiles/templates/profiles/profile_detail.html
 
 
+#### 8.4 Menggunakan include
+
+        modified:   README.md
+        modified:   templates/base.html
+        new file:   templates/shared/head.html
+        new file:   templates/shared/header.html
+
+
 
 
 
