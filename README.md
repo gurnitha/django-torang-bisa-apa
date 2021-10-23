@@ -114,7 +114,10 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/profiles/views.py
 
 
+#### 6.3 Membuat route
 
+        modified:   README.md
+        new file:   apps/profiles/urls.py
 
 
 
