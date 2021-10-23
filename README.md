@@ -325,22 +325,26 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/profiles/views.py
 
 
-#### 14.4 PROFILE_SINGLE - Display data skill yg memiliki deskripsi
+#### 14.5 PROFILE_SINGLE - Display data skill yg memiliki deskripsi
 
-        modified:   README.md
+        modifie:   README.md
         new file:   apps/profiles/migrations/0005_skill_description.py
         modified:   apps/profiles/models.py
         modified:   apps/profiles/templates/profiles/profile_detail.html
         modified:   apps/profiles/views.py
 
 
-#### 14.5 PROFILE_SINGLE - Display data skill yg tidak memiliki deskripsi
+#### 14.6 PROFILE_SINGLE - Display data skill yg tidak memiliki deskripsi
 
         modified:   README.md
         modified:   apps/profiles/templates/profiles/profile_detail.html
         modified:   apps/profiles/views.py
 
 
+#### 14.7 DJANGO CKEditor - Add CKEditor to Skill model dan modifikasi README file
+
+        modified:   README.md
+        modified:   apps/profiles/admin.py
 
 
 
