@@ -411,9 +411,15 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   templates/shared/header.html
 
 
+### 17. MEMBUAT HALAMAN PROJECTS
+### ---------------------------------------
 
 
+#### 17.1 Membuat halaman project_list dan project_detail
 
+        modified:   README.md
+        new file:   apps/projects/templates/projects/project_detail.html
+        new file:   apps/projects/templates/projects/project_list.html
 
 
 
