@@ -120,6 +120,11 @@ Aplikasi untuk orang Indonesia yang kreatif.
         new file:   apps/profiles/urls.py
 
 
+#### 6.4 Meregistrasi route pada route proyek 'core/urls.py'
+
+        modified:   README.md
+        modified:   core/urls.py
+
 
 
 
