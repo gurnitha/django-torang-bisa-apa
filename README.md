@@ -144,7 +144,13 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/profiles/templates/profiles/profile_list.html
 
 
+#### 7.2 Menambahkan static assets
 
+        new file:   static/assets/uikit/styles/modules/_tag.css
+        new file:   static/assets/uikit/styles/modules/_typography.css
+        ...
+        new file:   static/assets/uikit/styles/modules/_utilities.css
+        new file:   static/assets/uikit/styles/modules/_variables.css
 
 
 
