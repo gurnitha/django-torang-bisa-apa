@@ -52,6 +52,7 @@ INSTALLED_APPS = [
 
     # Locals
     'apps.decors.apps.DecorsConfig',
+    'apps.projects.apps.ProjectsConfig',
 ]
 
 MIDDLEWARE = [

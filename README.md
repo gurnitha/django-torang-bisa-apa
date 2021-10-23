@@ -373,6 +373,35 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   core/urls.py
 
 
+### 16. MEMBUAT DJANGO APP
+### ---------------------------------------
+
+
+#### 16.1 Membuat app dengan nama 'apps/projects'
+
+        Langkah:
+
+        1. Membuat folder baru 'apps/projects'
+        2. Membuat app baru 'apps/projects'
+        3. Mengubah nama configurasi app:
+           1. Buka file projects/apps.py
+           2. Ubah nama
+              dari -> name = 'projects'
+              menjadi -> name = 'apps.projects'
+        4. Meregistrasi app projects pada core/settings.py
+        5. Menjalan server untuk menguji
+        
+        modified:   README.md
+        new file:   apps/projects/__init__.py
+        new file:   apps/projects/admin.py
+        new file:   apps/projects/apps.py
+        new file:   apps/projects/migrations/__init__.py
+        new file:   apps/projects/models.py
+        new file:   apps/projects/tests.py
+        new file:   apps/projects/views.py
+        modified:   core/settings.py
+
+
 
 
 
