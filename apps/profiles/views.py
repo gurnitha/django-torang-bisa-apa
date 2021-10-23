@@ -22,10 +22,19 @@ def profile_list(request):
 
 # profile_detail view
 def profile_detail(request, pk):
+	
+	# Page title
 	page_title = 'Profile Detail'
+	
+	# Profile by id
 	profile = Profile.objects.get(id=pk)
+	
+	# Skill yg memiliki deskripsi
+	topSkills = profile.skill_set.exclude(description__exact="")
+	
 	context = {
 		'title':page_title,
-		'profile':profile
+		'profile':profile,
+		'topSkills':topSkills
 	}
 	return render(request, 'profiles/profile_detail.html', context)

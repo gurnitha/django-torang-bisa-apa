@@ -325,6 +325,15 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/profiles/views.py
 
 
+#### 14.4 PROFILE_SINGLE - Display data skill yg memiliki deskripsi
+
+        modified:   README.md
+        new file:   apps/profiles/migrations/0005_skill_description.py
+        modified:   apps/profiles/models.py
+        modified:   apps/profiles/templates/profiles/profile_detail.html
+        modified:   apps/profiles/views.py
+
+
 
 
 

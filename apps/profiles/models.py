@@ -118,6 +118,10 @@ class Skill(models.Model):
 		blank=False,
 		null=False,
 		help_text='Misal: PHP. Field ini boleh dikosongkan.')
+    description = models.TextField(
+    	blank=True, 
+    	null=True,
+		help_text='Field ini boleh dikosongkan.') 
     created = models.DateTimeField(
 		auto_now_add=True,
 		help_text='Field untuk tanggal dibuat.') 
