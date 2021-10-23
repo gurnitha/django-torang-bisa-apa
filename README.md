@@ -97,8 +97,15 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   core/urls.py
 
 
+### 6. PAGES
+### ---------------------------------------
 
 
+#### 6.1 Membuat halaman profile_list dan profile_detail
+
+        modified:   README.md
+        new file:   apps/profiles/templates/profiles/profile_detail.html
+        new file:   apps/profiles/templates/profiles/profile_list.html
 
 
 
