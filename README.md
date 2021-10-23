@@ -288,6 +288,19 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   core/urls.py
 
 
+### 14. CRUD
+### ---------------------------------------
+
+
+#### 14.1 Create data dan Modifiksi profile_list page
+
+        modified:   README.md
+        modified:   apps/profiles/templates/profiles/profile_list.html
+        new file:   static/images/profiles/bisma.PNG
+
+
+
+
 
 
 
