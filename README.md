@@ -170,7 +170,10 @@ Aplikasi untuk orang Indonesia yang kreatif.
         new file:   templates/base.html
 
 
+#### 8.2 Menggunakan base file pada profile_list
 
+        modified:   README.md
+        modified:   apps/profiles/templates/profiles/profile_list.html
 
 
 
