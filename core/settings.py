@@ -51,7 +51,7 @@ INSTALLED_APPS = [
     'debug_toolbar',
 
     # Locals
-    'apps.profiles.apps.ProfilesConfig',
+    'apps.decors.apps.DecorsConfig',
 ]
 
 MIDDLEWARE = [

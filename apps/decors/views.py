@@ -1,10 +1,10 @@
-# apps/profiles/views.py
+# apps/decors/views.py
 
 # Django modules
 from django.shortcuts import render
 
 # Locals
-from apps.profiles.models import Profile, Skill
+from apps.decors.models import Profile, Skill
 
 
 # profile_list view
@@ -17,7 +17,7 @@ def profile_list(request):
 		'profiles':profiles,
 		'skills':skills
 	}
-	return render(request, 'profiles/profile_list.html', context)
+	return render(request, 'decors/profile_list.html', context)
 
 
 # profile_detail view
@@ -41,4 +41,4 @@ def profile_detail(request, pk):
 		'topSkills':topSkills,
 		'otherSkills':otherSkills
 	}
-	return render(request, 'profiles/profile_detail.html', context)
+	return render(request, 'decors/profile_detail.html', context)

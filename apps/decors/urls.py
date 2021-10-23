@@ -1,13 +1,13 @@
-# apps/profiles/urls.py
+# apps/decors/urls.py
 
 # Django modules
 from django.urls import path
 
 # Locals
-from apps.profiles import views
+from apps.decors import views
 
 # Appname
-app_name = 'profiles'
+app_name = 'decors'
 
 urlpatterns = [
 	path('', views.profile_list, name='profile_list'),

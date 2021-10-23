@@ -1,4 +1,4 @@
-# apps/profiles/admin.py
+# apps/decors/admin.py
 
 # Django modules
 from django.contrib import admin
@@ -6,7 +6,7 @@ from django import forms
 from ckeditor_uploader.widgets import CKEditorUploadingWidget
 
 # Locals
-from apps.profiles.models import Profile, Skill
+from apps.decors.models import Profile, Skill
 
 
 

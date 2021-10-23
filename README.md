@@ -347,8 +347,30 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/profiles/admin.py
 
 
+### 15. MENGUBAH NAMA DJANGO APP
+### ---------------------------------------
 
 
+#### 15.1 Mengubah nama django app dari 'apps/profiles' menjadi 'apps/decors'
+
+        modified:   README.md
+        renamed:    apps/profiles/__init__.py -> apps/decors/__init__.py
+        renamed:    apps/profiles/admin.py -> apps/decors/admin.py
+        renamed:    apps/profiles/apps.py -> apps/decors/apps.py
+        renamed:    apps/profiles/migrations/__init__.py -> apps/decors/migrations/__init__.py
+        renamed:    apps/profiles/models.py -> apps/decors/models.py
+        renamed:    apps/profiles/templates/profiles/profile_detail.html -> apps/decors/templates/profiles/profile_detail.html
+        renamed:    apps/profiles/templates/profiles/profile_list.html -> apps/decors/templates/profiles/profile_list.html
+        renamed:    apps/profiles/tests.py -> apps/decors/tests.py
+        renamed:    apps/profiles/urls.py -> apps/decors/urls.py
+        renamed:    apps/profiles/views.py -> apps/decors/views.py
+        deleted:    apps/profiles/migrations/0001_initial.py
+        deleted:    apps/profiles/migrations/0002_auto_20211023_1222.py
+        deleted:    apps/profiles/migrations/0003_auto_20211023_1531.py
+        deleted:    apps/profiles/migrations/0004_profile_github.py
+        deleted:    apps/profiles/migrations/0005_skill_description.py
+        modified:   core/settings.py
+        modified:   core/urls.py
 
 
 
