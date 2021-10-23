@@ -461,6 +461,12 @@ Aplikasi untuk orang Indonesia yang kreatif.
         new file:   apps/projects/migrations/0001_initial.py
 
 
+#### 18.3 Mencatatkan model pada admin.py
+
+        modified:   README.md
+        modified:   apps/projects/admin.py
+
+
 
 
 
