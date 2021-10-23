@@ -299,6 +299,12 @@ Aplikasi untuk orang Indonesia yang kreatif.
         new file:   static/images/profiles/bisma.PNG
 
 
+#### 14.2 READ data profile di db dan display data pada profile_list page
+
+        modified:   README.md
+        modified:   apps/profiles/templates/profiles/profile_list.html
+        modified:   apps/profiles/views.py
+
 
 
 

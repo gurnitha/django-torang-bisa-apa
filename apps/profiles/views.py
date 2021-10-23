@@ -4,12 +4,16 @@
 from django.shortcuts import render
 
 # Locals
+from apps.profiles.models import Profile
+
 
 # profile_list view
 def profile_list(request):
 	page_title = 'Profile List'
+	profiles = Profile.objects.all()
 	context = {
 		'title':page_title,
+		'profiles':profiles
 	}
 	return render(request, 'profiles/profile_list.html', context)
 

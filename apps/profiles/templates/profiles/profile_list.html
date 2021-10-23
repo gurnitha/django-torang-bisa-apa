@@ -1,5 +1,7 @@
 <!-- apps/profiles/templates/profiles/profile_list.html -->
 {% extends 'base.html' %}
+from django.utils.html import strip_tags
+
 {% block title %}{{title}}{% endblock title %}
 {% load static %}
 
@@ -32,21 +34,20 @@
             <div class="container">
                 <div class="grid grid--three">
 
+                    {% for profile in profiles %}
                     <!-- Profile card -->
                     <div class="column card">
                         <div class="dev">
                             <a href="{% url 'profiles:profile_detail' %}" class="card__body">
                                 <div class="dev__profile">
-                                    <img class="avatar avatar--md" src="https://avatars.githubusercontent.com/u/22437186" alt="image" />
+                                    <img class="avatar avatar--md" src="{{profile.profile_image.url}}" alt="image" />
                                     <div class="dev__meta">
-                                        <h3>Shahriar P. Shuvo</h3>
-                                        <h5>FullStack Web Designer & Developer</h5>
+                                        <h3>{{profile.name|title}}</h3>
+                                        <h5>{{profile.short_intro|title|slice:"30"}}</h5>
                                     </div>
                                 </div>
                                 <p class="dev__info">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, ducimus inventore! Sunt,
-                                    veniam veritatis? Veritatis placeat, deleniti iure tempore veniam perspiciatis, soluta cupiditate
-                                    animi, exercitationem molestias nam doloremque architecto odit.
+                                    {{profile.bio|striptags|truncatewords:30}}
                                 </p>
                                 <div class="dev__skills">
                                     <span class="tag tag--pill tag--main">
@@ -72,6 +73,7 @@
                         </div>
                     </div>
                     <!-- END Profile card -->
+                    {% endfor %}
 
                 </div>
             </div>
