@@ -487,8 +487,16 @@ Aplikasi untuk orang Indonesia yang kreatif.
         new file:   static/images/projects/Devsearch_Profile.jpg
 
 
+### 20. LOADING DATA TO PROJECT PAGES
+### ---------------------------------------
 
 
+#### 20.1 Retrieve dan load data projects pada project_list
+
+        modified:   README.md
+        modified:   apps/projects/templates/projects/project_list.html
+        modified:   apps/projects/views.py
+        new file:   static/images/profiles/drona.PNG
 
 
 
