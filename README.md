@@ -35,6 +35,17 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   README.md
 
 
+#### 3.2 Membuat django app dengan nama 'profiles'
+
+        modified:   README.md
+        new file:   apps/profiles/__init__.py
+        new file:   apps/profiles/admin.py
+        new file:   apps/profiles/apps.py
+        new file:   apps/profiles/migrations/__init__.py
+        new file:   apps/profiles/models.py
+        new file:   apps/profiles/tests.py
+        new file:   apps/profiles/views.py
+
 
 
 
