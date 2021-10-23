@@ -206,6 +206,18 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   templates/shared/header.html
 
 
+### 9. PAGE TITLE
+### ---------------------------------------
+
+
+#### 9.1 Membuat page title dinamis
+
+        modified:   README.md
+        modified:   apps/profiles/templates/profiles/profile_detail.html
+        modified:   apps/profiles/templates/profiles/profile_list.html
+        modified:   apps/profiles/views.py
+        modified:   templates/base.html
+
 
 
 

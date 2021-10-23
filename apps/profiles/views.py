@@ -7,9 +7,17 @@ from django.shortcuts import render
 
 # profile_list view
 def profile_list(request):
-	return render(request, 'profiles/profile_list.html')
+	page_title = 'Profile List'
+	context = {
+		'title':page_title,
+	}
+	return render(request, 'profiles/profile_list.html', context)
 
 
 # profile_detail view
 def profile_detail(request):
-	return render(request, 'profiles/profile_detail.html')
+	page_title = 'Profile Detail'
+	context = {
+		'title':page_title,
+	}
+	return render(request, 'profiles/profile_detail.html', context)
