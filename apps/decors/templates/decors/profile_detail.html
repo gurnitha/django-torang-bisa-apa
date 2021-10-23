@@ -88,7 +88,7 @@
                             <!-- Skill with description -->
                             <div class="devSkill">
                                 <h4 class="devSkill__title">{{topSkill.skill}}</h4>
-                                <p class="devSkill__info">{{topSkill.description}}</p>
+                                <p class="devSkill__info">{{topSkill.description|safe}}</p>
                             </div>
                             <!-- Skill with description -->
                             {% endfor %}

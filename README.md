@@ -477,6 +477,15 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/admin.py
 
 
+#### 19.2 Adding data to test CKEditor and render the data
+
+        modified:   README.md
+        modified:   apps/decors/admin.py
+        modified:   apps/decors/templates/decors/profile_detail.html
+        modified:   apps/projects/admin.py
+        new file:   static/images/profiles/bisma_G2ZxTo2.PNG
+        new file:   static/images/projects/Devsearch_Profile.jpg
+
 
 
 

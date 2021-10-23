@@ -12,7 +12,7 @@ from apps.decors.models import Profile, Skill
 
 # Profile admin form for CKEditor
 class ProfileAdminForm(forms.ModelForm):
-    bio = forms.CharField(widget=CKEditorUploadingWidget)
+    bio = forms.CharField(required=False,widget=CKEditorUploadingWidget)
 
     class Meta:
       model  = Profile 
@@ -26,7 +26,7 @@ class ProfileAdmin(admin.ModelAdmin):
 
 # Skill admin form for CKEditor
 class SkillAdminForm(forms.ModelForm):
-    description = forms.CharField(widget=CKEditorUploadingWidget)
+    description = forms.CharField(required=False,widget=CKEditorUploadingWidget)
 
     class Meta:
       model  = Skill 

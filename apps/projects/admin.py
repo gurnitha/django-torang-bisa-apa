@@ -13,7 +13,7 @@ from apps.projects.models import Project, Review, Tag
 
 # Project admin form for CKEditor
 class ProjectAdminForm(forms.ModelForm):
-    description = forms.CharField(widget=CKEditorUploadingWidget)
+    description = forms.CharField(required=False,widget=CKEditorUploadingWidget)
 
     class Meta:
       model  = Project 
@@ -31,7 +31,7 @@ admin.site.register(Project, ProjectAdmin)
 # ---------CKEditor untuk Review model -----------------
 # Project admin form for CKEditor
 class ReviewAdminForm(forms.ModelForm):
-    body = forms.CharField(widget=CKEditorUploadingWidget)
+    body = forms.CharField(required=False,widget=CKEditorUploadingWidget)
 
     class Meta:
       model  = Review 
