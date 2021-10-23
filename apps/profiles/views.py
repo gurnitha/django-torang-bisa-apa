@@ -32,9 +32,13 @@ def profile_detail(request, pk):
 	# Skill yg memiliki deskripsi
 	topSkills = profile.skill_set.exclude(description__exact="")
 	
+	# Skill yg tidak memiliki deskripsi
+	otherSkills = profile.skill_set.filter(description__exact="")
+
 	context = {
 		'title':page_title,
 		'profile':profile,
-		'topSkills':topSkills
+		'topSkills':topSkills,
+		'otherSkills':otherSkills
 	}
 	return render(request, 'profiles/profile_detail.html', context)

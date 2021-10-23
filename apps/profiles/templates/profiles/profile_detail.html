@@ -93,37 +93,18 @@
                             <!-- Skill with description -->
                             {% endfor %}
 
+                            
                             <!-- Skill without description -->
                             <div class="devInfo__otherSkills">
+                                {% for otherSkill in otherSkills %}
                                 <span class="tag tag--pill tag--sub tag--lg">
-                                <small>Figma</small>
+                                <small>{{otherSkill.skill}}</small>
                                 </span>
-                                <span class="tag tag--pill tag--sub tag--lg">
-                                <small>Vuejs</small>
-                                </span>
-                                <span class="tag tag--pill tag--sub tag--lg">
-                                <small>REST API</small>
-                                </span>
-                                <span class="tag tag--pill tag--sub tag--lg">
-                                <small>GraphQL</small>
-                                </span>
-                                <span class="tag tag--pill tag--sub tag--lg">
-                                <small>TypeScript</small>
-                                </span>
-                                <span class="tag tag--pill tag--sub tag--lg">
-                                <small>Webpack</small>
-                                </span>
-                                <span class="tag tag--pill tag--sub tag--lg">
-                                <small>NextJS</small>
-                                </span>
-                                <span class="tag tag--pill tag--sub tag--lg">
-                                <small>Postgres</small>
-                                </span>
-                                <span class="tag tag--pill tag--sub tag--lg">
-                                <small>MongoDB</small>
-                                </span>
+                                {% endfor %}
                             </div>
                             <!-- END Skill without description -->
+                            
+
                         </div>
                     </div>
                     <!-- END Skills -->

@@ -334,6 +334,12 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/profiles/views.py
 
 
+#### 14.5 PROFILE_SINGLE - Display data skill yg tidak memiliki deskripsi
+
+        modified:   README.md
+        modified:   apps/profiles/templates/profiles/profile_detail.html
+        modified:   apps/profiles/views.py
+
 
 
 
