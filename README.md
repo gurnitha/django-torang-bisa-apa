@@ -444,6 +444,15 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/templates/projects/project_list.html
 
 
+### 18. MEMBUAT MODELS
+### ---------------------------------------
+
+
+#### 18.1 Membuat model Project, Review dan Tag
+
+        modified:   README.md
+        modified:   apps/projects/models.py
+        new file:   static/images/projects/default.jpg
 
 
 
