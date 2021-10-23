@@ -455,6 +455,11 @@ Aplikasi untuk orang Indonesia yang kreatif.
         new file:   static/images/projects/default.jpg
 
 
+#### 18.2 Menjalankan migrasi untuk membuat tabel
+
+        modified:   README.md
+        new file:   apps/projects/migrations/0001_initial.py
+
 
 
 
