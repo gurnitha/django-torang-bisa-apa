@@ -90,8 +90,11 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   core/settings.py
 
 
+#### 5.3 Melayani file statis selama pengembangan
 
-
+        modified:   README.md
+        modified:   core/settings.py
+        modified:   core/urls.py
 
 
 
