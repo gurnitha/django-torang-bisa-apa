@@ -84,6 +84,11 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   core/settings.py
 
 
+#### 5.2 Mengonfigurasi berkas statis dan media
+
+        modified:   README.md
+        modified:   core/settings.py
+
 
 
 
