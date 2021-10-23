@@ -108,7 +108,10 @@ Aplikasi untuk orang Indonesia yang kreatif.
         new file:   apps/profiles/templates/profiles/profile_list.html
 
 
+#### 6.2 Membuat view untuk profile_list dan profile_detail
 
+        modified:   README.md
+        modified:   apps/profiles/views.py
 
 
 
