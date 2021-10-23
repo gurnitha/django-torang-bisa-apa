@@ -26,11 +26,13 @@ Aplikasi untuk orang Indonesia yang kreatif.
         new file:   manage.py
 
 
+### 3. DJANGO APP
+### ---------------------------------------
 
 
+#### 3.1 Membuat folder untuk django app dengan nama 'apps'
 
-
-
+        modified:   README.md
 
 
 
