@@ -176,7 +176,10 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/profiles/templates/profiles/profile_list.html
 
 
+#### 8.3 Menggunakan base file pada profile_detail
 
+        modified:   README.md
+        modified:   apps/profiles/templates/profiles/profile_detail.html
 
 
 
