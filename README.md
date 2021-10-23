@@ -422,7 +422,10 @@ Aplikasi untuk orang Indonesia yang kreatif.
         new file:   apps/projects/templates/projects/project_list.html
 
 
+#### 17.2 Membuat view method untuk project_list dan project_detail
 
+        modified:   README.md
+        modified:   apps/projects/views.py
 
 
 
