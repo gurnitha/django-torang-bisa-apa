@@ -190,6 +190,21 @@ Aplikasi untuk orang Indonesia yang kreatif.
         new file:   templates/shared/header.html
 
 
+#### 8.5 Menghubungkan halaman profile_list dan profile_detail dan mengganti logo dan favicon
+
+        modified:   README.md
+        modified:   apps/profiles/templates/profiles/profile_list.html
+        new file:   static/assets/images/favicon-tbs.jpg
+        new file:   static/assets/images/favicon-tbs.png
+        new file:   static/assets/images/favicon-tbs1.png
+        new file:   static/assets/images/favicon-tbs3.jpg
+        new file:   static/assets/images/tbs.png
+        new file:   static/assets/images/tbs2.png
+        new file:   static/assets/images/tbs3.png
+        new file:   static/assets/images/torang-bisa-apa.png
+        modified:   templates/shared/head.html
+        modified:   templates/shared/header.html
+
 
 
 
