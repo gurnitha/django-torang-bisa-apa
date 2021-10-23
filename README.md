@@ -244,6 +244,18 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/profiles/admin.py
 
 
+### 11. DJANGO ADMIN 
+### ---------------------------------------
+
+
+#### 11.1 Membuat superuser
+
+        Langkah:
+
+        1. Jalankan perintah: python manage.py createsuperuser
+        dan ikuti perintah selanjutnya
+        
+        modified:   README.md
 
 
 
