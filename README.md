@@ -467,6 +467,14 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/admin.py
 
 
+### 19. ADMIN DASHBOARD
+### ---------------------------------------
+
+
+#### 19.1 Menambahkan CKEditor pada Project dan Review model
+
+        modified:   README.md
+        modified:   apps/projects/admin.py
 
 
 
