@@ -12,27 +12,56 @@
                 <div class="column column--1of3">
                     <div class="card text-center">
                         <div class="card__body dev">
-                            <img class="avatar avatar--xl" src="https://avatars.githubusercontent.com/u/33843378" />
-                            <h2 class="dev__name">Dennis Ivanov</h2>
-                            <p class="dev__title">Expirance FullStack Developer, Youtuber and Instructor</p>
-                            <p class="dev__location">Based in Florida, USA</p>
+                            <img class="avatar avatar--xl" src="{{profile.profile_image.url}}" />
+                            <h2 class="dev__name">{{profile.name|title}}</h2>
+                            <p class="dev__title">{{profile.short_intro|title}}</p>
+                            <p class="dev__location">Based in {{profile.location|title}}</p>
+                            
+                            <!-- Social -->
                             <ul class="dev__social">
+                                {% if profile.facebook %}
                                 <li>
-                                    <a title="Github" href="#" target="_blank"><i class="im im-github"></i></a>
+                                    <a title="Facebook" href="#" target="_blank"><i class="im im-facebook"></i></a>
                                 </li>
-                                <li>
-                                    <a title="Stackoverflow" href="#" target="_blank"><i class="im im-stackoverflow"></i></a>
-                                </li>
+                                {% endif %}
+                                {% if profile.twitter %}
                                 <li>
                                     <a title="Twitter" href="#" target="_blank"><i class="im im-twitter"></i></a>
                                 </li>
+                                {% endif %}
+                                {% if profile.instagram %}
+                                <li>
+                                    <a title="Instagram" href="#" target="_blank"><i class="im im-instagram"></i></a>
+                                </li>
+                                {% endif %}
+                                {% if profile.linkedin %}
                                 <li>
                                     <a title="LinkedIn" href="#" target="_blank"><i class="im im-linkedin"></i></a>
                                 </li>
+                                {% endif %}
+                                {% if profile.youtube %}
+                                <li>
+                                    <a title="Youtube" href="#" target="_blank"><i class="im im-youtube"></i></a>
+                                </li>
+                                {% endif %}
+                                {% if profile.stackoverflow %}
+                                <li>
+                                    <a title="Stackoverflow" href="#" target="_blank"><i class="im im-stackoverflow"></i></a>
+                                </li>
+                                {% endif %}
+                                {% if profile.github %}
+                                <li>
+                                    <a title="Github" href="#" target="_blank"><i class="im im-github"></i></a>
+                                </li>
+                                {% endif %}
+                                {% if profile.website %}
                                 <li>
                                     <a title="Personal Website" href="#" target="_blank"><i class="im im-globe"></i></a>
                                 </li>
+                                {% endif %}
                             </ul>
+                            <!-- END Social -->
+
                             <a href="#" class="btn btn--sub btn--lg">Send Message </a>
                         </div>
                     </div>
@@ -45,13 +74,7 @@
                     <!-- About -->
                     <div class="devInfo">
                         <h3 class="devInfo__title">About Me</h3>
-                        <p class="devInfo__about">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex illum ipsum iusto consequatur. Totam,
-                            dolorum fugiat, debitis facere illo nostrum nesciunt maxime, deserunt enim voluptatibus modi natus velit
-                            voluptatum. Dicta eritatis exercitationem ut quos a placeat obcaecati? Architecto illum!
-                            <br />
-                            Amet consectetur adipisicing elit. Veritatis exercitationem ut quos a placeat obcaecati? Architecto
-                            illum, atque delectus nemo dolorem inventore ab facilis? Dolor placeat vel delectus ipsam ullam.
+                        <p class="devInfo__about">{{profile.bio|safe}}
                         </p>
                     </div>
                     <!-- END About -->

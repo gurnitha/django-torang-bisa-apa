@@ -63,11 +63,6 @@ class Profile(models.Model):
     	blank=True, 
     	null=True,
 		help_text='Account Anda di IG. Field ini boleh dikosongkan.') 
-    telegram= models.CharField(
-    	max_length=200, 
-    	blank=True, 
-    	null=True,
-		help_text='Account Anda di TG. Field ini boleh dikosongkan.')
     linkedin= models.CharField(
     	max_length=200, 
     	blank=True, 
@@ -83,6 +78,11 @@ class Profile(models.Model):
     	blank=True, 
     	null=True,
 		help_text='Account Anda di Stackoverflow. Field ini boleh dikosongkan.')
+    github = models.CharField(
+    	max_length=200, 
+    	blank=True, 
+    	null=True,
+		help_text='Account Anda di Github. Field ini boleh dikosongkan.')
     website = models.CharField(
     	max_length=200, 
     	blank=True, 

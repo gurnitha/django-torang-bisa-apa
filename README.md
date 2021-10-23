@@ -313,6 +313,16 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/profiles/views.py
 
 
+#### 14.4 PROFILE_SINGLE - READ data profil dan display profile_detail page
+
+        modified:   README.md
+        new file:   apps/profiles/migrations/0003_auto_20211023_1531.py
+        new file:   apps/profiles/migrations/0004_profile_github.py
+        modified:   apps/profiles/models.py
+        modified:   apps/profiles/templates/profiles/profile_detail.html
+        modified:   apps/profiles/templates/profiles/profile_list.html
+        modified:   apps/profiles/urls.py
+        modified:   apps/profiles/views.py
 
 
 

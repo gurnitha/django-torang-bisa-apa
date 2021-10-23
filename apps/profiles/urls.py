@@ -11,5 +11,5 @@ app_name = 'profiles'
 
 urlpatterns = [
 	path('', views.profile_list, name='profile_list'),
-	path('profile-detail/', views.profile_detail, name='profile_detail')
+	path('profile-detail/<str:pk>/', views.profile_detail, name='profile_detail')
 ]

@@ -21,9 +21,11 @@ def profile_list(request):
 
 
 # profile_detail view
-def profile_detail(request):
+def profile_detail(request, pk):
 	page_title = 'Profile Detail'
+	profile = Profile.objects.get(id=pk)
 	context = {
 		'title':page_title,
+		'profile':profile
 	}
 	return render(request, 'profiles/profile_detail.html', context)
