@@ -126,6 +126,11 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   core/urls.py
 
 
+#### 6.5 Mentautkan halaman profile_list dan profile_detail
+
+        modified:   README.md
+        modified:   apps/profiles/templates/profiles/profile_detail.html
+        modified:   apps/profiles/templates/profiles/profile_list.html
 
 
 
