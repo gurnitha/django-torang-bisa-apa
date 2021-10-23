@@ -69,7 +69,17 @@ Aplikasi untuk orang Indonesia yang kreatif.
         5. Mensetup parameter pada .env file
         6. Mengsetup parameter environment pada core/settings.py
         7. Mensetup parameter database pada core/setting.py
-        
+
+        modified:   README.md
+        modified:   core/settings.py
+
+
+### 5. TEMPLATES, STATIC FILES DAN MEDIA FILES
+### ---------------------------------------
+
+
+#### 5.1 Membuat BASE_DIR templates
+
         modified:   README.md
         modified:   core/settings.py
 
