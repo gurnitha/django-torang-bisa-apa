@@ -528,6 +528,10 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/templates/projects/project_detail.html
 
 
+#### 20.6 PROJECT_DETAIL Part 3 - Loading ada atau tidak link ke live demo
+
+        modified:   README.md
+        modified:   apps/projects/templates/projects/project_detail.html
 
 
 

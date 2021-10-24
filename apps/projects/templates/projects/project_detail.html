@@ -26,24 +26,45 @@
                     </div>
                     <!-- END Tags -->
 
-                    <!-- Source codes -->
+                    <!---------- Link to Source codes ---------->
                     {% if project.source_link %}
                     <a 
                         class="singleProject__liveLink" 
                         href="#" target="_blank">
                         <i class="im im-external-link"></i>
                         Source Code
-                    </a>
+                    </a><br>
                     {% else %}
+                    <a 
+                        class="singleProject__liveLink" 
+                        style="color:#51546E;"
+                        href="#" target="_blank">
+                        <i class="im im-external-link"></i>
+                        No Source Code
+                    </a><br>
+                    {% endif %}
+                    <!---------- END Link to Source codes ---------->
+
+
+                    <!------------ Link to live demo ------------>
+                    {% if project.demo_link %}
                     <a 
                         class="singleProject__liveLink" 
                         href="#" target="_blank">
                         <i class="im im-external-link"></i>
-                        No Source Code
+                        Live Demo
+                    </a><br>
+                    {% else %}
+                    <a 
+                        class="singleProject__liveLink" 
+                        style="color:#51546E;" 
+                        href="#" target="_blank" s>
+                        <i class="im im-external-link"></i>
+                        No Live Demo
                     </a>
                     {% endif %}
-                    <!-- END Source codes -->
-                    
+                    <!------------ END Link to live demo ------------>
+
                 </div>
                 <!-- END Aside -->
 
