@@ -534,6 +534,11 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/templates/projects/project_detail.html
 
 
+#### 20.7 PROJECT_DETAIL Part 4 - Modified page
+
+        modified:   README.md
+        modified:   apps/projects/templates/projects/project_detail.html
+
 
 
 
