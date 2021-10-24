@@ -561,6 +561,13 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   templates/shared/header.html
 
 
+#### 21.3 Rendering form to Create Project page
+
+        modified:   README.md
+        modified:   apps/projects/forms.py
+        modified:   apps/projects/templates/projects/crud/create_project.html
+        modified:   apps/projects/views.py
+
 
 
 

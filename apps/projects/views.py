@@ -2,6 +2,7 @@
 
 # Django modules
 from django.shortcuts import render
+from apps.projects.forms import ProjectForm
 
 # Locals
 from apps.projects.models import Project, Tag
@@ -39,4 +40,8 @@ def project_detail(request, pk):
 
 # create_project view
 def create_project(request):
+	form = ProjectForm
+	context = {
+		'form':form
+	}
 	return render(request, 'projects/crud/create_project.html', context)

@@ -4,7 +4,7 @@
 from django.forms import ModelForm
 
 # Locals
-from apps.projects import Project
+from apps.projects.models import Project
 
 
 # ProjectForm model
