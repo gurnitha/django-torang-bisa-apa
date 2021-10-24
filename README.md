@@ -600,8 +600,11 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/forms.py
 
 
+#### 21.9 Using for loop to replace techniques in 21.8
 
 
+        modified:   README.md
+        modified:   apps/projects/forms.py
 
 
 

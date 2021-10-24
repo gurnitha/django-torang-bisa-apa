@@ -20,18 +20,23 @@ class ProjectForm(ModelForm):
 		# Change multiple select to multiple radion button
 		widgets = {'tags': forms.CheckboxSelectMultiple(),}
 
+	def __init__(self, *args, **kwargs):
+		super(ProjectForm, self).__init__(*args, **kwargs)
+
+ 		# REPLACING THE BELOW TECHNIQUE USING FOR LOOP
+		for name, field in self.fields.items():
+			field.widget.attrs.update({'class': 'input'})
 	
 	# Steps adding class style to input fields
 	# 1. Overide the ProjectForm class by
 	#    Define method to modify (add class) to the ProjectForm fields
-	def __init__(self, *args, **kwargs):
-		super(ProjectForm, self).__init__(*args, **kwargs)
 
-		# 2. Define the field to modify
-		self.fields['title'].widget.attrs.update({'class':'input'})
-		self.fields['description'].widget.attrs.update({'class':'input'})
-		self.fields['demo_link'].widget.attrs.update({'class':'input'})
-		self.fields['source_link'].widget.attrs.update({'class':'input'})
+
+		# # 2. Define the field to modify
+		# self.fields['title'].widget.attrs.update({'class':'input'})
+		# self.fields['description'].widget.attrs.update({'class':'input'})
+		# self.fields['demo_link'].widget.attrs.update({'class':'input'})
+		# self.fields['source_link'].widget.attrs.update({'class':'input'})
 
 		# # 2. Define the field to modify
 		# self.fields['title'].widget.attrs.update({'class':'input', 'placeholder':'Add title'})
