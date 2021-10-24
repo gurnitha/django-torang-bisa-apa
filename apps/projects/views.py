@@ -20,15 +20,6 @@ def project_list(request):
 	return render(request, 'projects/project_list.html', context)
 
 
-# # project_detail view
-# def project_detail(request):
-# 	page_title = 'Project Detail'
-# 	context = {
-# 		'title':page_title
-# 	}
-# 	return render(request, 'projects/project_detail.html', context)
-
-
 # project_detail view
 def project_detail(request, pk):
 	
@@ -48,4 +39,4 @@ def project_detail(request, pk):
 
 # create_project view
 def create_project(request):
-	return render(request, 'projects/crud/create_project.html')
+	return render(request, 'projects/crud/create_project.html', context)

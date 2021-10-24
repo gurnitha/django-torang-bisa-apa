@@ -552,6 +552,14 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/views.py
 
 
+#### 21.2 Membuat ProjectForm model
+
+        modified:   README.md
+        new file:   apps/projects/forms.py
+        modified:   apps/projects/templates/projects/crud/create_project.html
+        modified:   apps/projects/views.py
+        modified:   templates/shared/header.html
+
 
 
 

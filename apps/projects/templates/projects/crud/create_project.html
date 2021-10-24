@@ -7,4 +7,10 @@
 
     <h1>CREATE PROJECT</h1>
 
+    <form method="POST">
+        {% csrf_token %}
+
+        <input type="submit" name="" value="Create">
+    </form>
+
     {% endblock content %}
