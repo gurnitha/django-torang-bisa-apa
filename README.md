@@ -594,6 +594,10 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/forms.py
 
 
+#### 21.8 Removing the placeholder from the input field
+
+        modified:   README.md
+        modified:   apps/projects/forms.py
 
 
 

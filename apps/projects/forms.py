@@ -28,10 +28,16 @@ class ProjectForm(ModelForm):
 		super(ProjectForm, self).__init__(*args, **kwargs)
 
 		# 2. Define the field to modify
-		self.fields['title'].widget.attrs.update({'class':'input', 'placeholder':'Add title'})
-		self.fields['description'].widget.attrs.update({'class':'input', 'placeholder':'Add description'})
-		self.fields['demo_link'].widget.attrs.update({'class':'input', 'placeholder':'https://demo.com/my-demo/'})
-		self.fields['source_link'].widget.attrs.update({'class':'input', 'placeholder':'https://translate.google.co.id/'})
+		self.fields['title'].widget.attrs.update({'class':'input'})
+		self.fields['description'].widget.attrs.update({'class':'input'})
+		self.fields['demo_link'].widget.attrs.update({'class':'input'})
+		self.fields['source_link'].widget.attrs.update({'class':'input'})
+
+		# # 2. Define the field to modify
+		# self.fields['title'].widget.attrs.update({'class':'input', 'placeholder':'Add title'})
+		# self.fields['description'].widget.attrs.update({'class':'input', 'placeholder':'Add description'})
+		# self.fields['demo_link'].widget.attrs.update({'class':'input', 'placeholder':'https://demo.com/my-demo/'})
+		# self.fields['source_link'].widget.attrs.update({'class':'input', 'placeholder':'https://translate.google.co.id/'})
 
 		# Result
 
