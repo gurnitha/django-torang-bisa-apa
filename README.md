@@ -569,6 +569,12 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/views.py
 
 
+#### 21.4 Rendering form field using for loop
+
+        modified:   README.md
+        modified:   apps/projects/templates/projects/crud/create_project.html
+
+
 
 
 
