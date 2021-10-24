@@ -540,7 +540,16 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/templates/projects/project_detail.html
 
 
+### 21. CRUD PROJECTS
+### ---------------------------------------
 
+
+#### 21.1 Membuat halaman create_project VTurls
+
+        modified:   README.md
+        new file:   apps/projects/templates/projects/crud/create_project.html
+        modified:   apps/projects/urls.py
+        modified:   apps/projects/views.py
 
 
 

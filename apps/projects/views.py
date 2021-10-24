@@ -44,3 +44,8 @@ def project_detail(request, pk):
 		'project':project,
 	}
 	return render(request, 'projects/project_detail.html', context)
+
+
+# create_project view
+def create_project(request):
+	return render(request, 'projects/crud/create_project.html')
