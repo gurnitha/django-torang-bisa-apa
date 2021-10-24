@@ -575,7 +575,11 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/templates/projects/crud/create_project.html
 
 
+#### 21.5 Modifikasi fields pada froms.py dan tambahkan style pada create_project page
 
+        modified:   README.md
+        modified:   apps/projects/forms.py
+        modified:   apps/projects/templates/projects/crud/create_project.html
 
 
 
