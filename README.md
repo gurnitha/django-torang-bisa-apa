@@ -588,11 +588,10 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/forms.py
 
 
+#### 21.7 Adding class style and placeholder to input field
 
-
-
-
-
+        modified:   README.md
+        modified:   apps/projects/forms.py
 
 
 
