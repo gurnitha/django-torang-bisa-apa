@@ -34,7 +34,7 @@
                     <div class="column">
                         <div class="card project">
 
-                            <a href="{% url 'projects:project_detail' %}" class="project">
+                            <a href="{% url 'projects:project_detail' project.id %}" class="project">
 
                                 <!-- Project image -->
                                 <img class="project__thumbnail" 
@@ -119,5 +119,4 @@
             </ul>
         </div>
     </main>
-    <a href="{% url 'projects:project_detail' %}">Project Detail</a>
     {% endblock content %}

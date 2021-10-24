@@ -20,10 +20,27 @@ def project_list(request):
 	return render(request, 'projects/project_list.html', context)
 
 
+# # project_detail view
+# def project_detail(request):
+# 	page_title = 'Project Detail'
+# 	context = {
+# 		'title':page_title
+# 	}
+# 	return render(request, 'projects/project_detail.html', context)
+
+
 # project_detail view
-def project_detail(request):
+def project_detail(request, pk):
+	
+	# Page title
 	page_title = 'Project Detail'
+	
+	# project by id
+	project = Project.objects.get(id=pk)
+	
+
 	context = {
-		'title':page_title
+		'title':page_title,
+		'project':project,
 	}
 	return render(request, 'projects/project_detail.html', context)

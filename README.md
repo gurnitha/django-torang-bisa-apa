@@ -513,6 +513,14 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/views.py
 
 
+#### 20.4 PROJECT_DETAIL Part 1 - Loading tags (M2M Rel with Project)
+
+        modified:   README.md
+        modified:   apps/projects/templates/projects/project_detail.html
+        modified:   apps/projects/templates/projects/project_list.html
+        modified:   apps/projects/urls.py
+        modified:   apps/projects/views.py
+
 
 
 
