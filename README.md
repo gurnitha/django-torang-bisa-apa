@@ -522,7 +522,10 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/views.py
 
 
+#### 20.5 PROJECT_DETAIL Part 2 - Loading ada atau tidak source code
 
+        modified:   README.md
+        modified:   apps/projects/templates/projects/project_detail.html
 
 
 

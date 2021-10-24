@@ -27,13 +27,23 @@
                     <!-- END Tags -->
 
                     <!-- Source codes -->
+                    {% if project.source_link %}
                     <a 
                         class="singleProject__liveLink" 
                         href="#" target="_blank">
                         <i class="im im-external-link"></i>
                         Source Code
                     </a>
+                    {% else %}
+                    <a 
+                        class="singleProject__liveLink" 
+                        href="#" target="_blank">
+                        <i class="im im-external-link"></i>
+                        No Source Code
+                    </a>
+                    {% endif %}
                     <!-- END Source codes -->
+                    
                 </div>
                 <!-- END Aside -->
 
