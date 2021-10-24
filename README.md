@@ -582,6 +582,10 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/templates/projects/crud/create_project.html
 
 
+#### 21.6 Change from multiple select to radio
+
+        modified:   README.md
+        modified:   apps/projects/forms.py
 
 
 
