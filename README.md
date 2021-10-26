@@ -540,7 +540,7 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/templates/projects/project_detail.html
 
 
-### 21. CRUD PROJECTS
+### 21. CRUD PROJECTS: FORMS
 ### ---------------------------------------
 
 
@@ -607,7 +607,11 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/forms.py
 
 
+#### 21.10 CRUD - (C) Create project
 
+        modified:   .gitignore
+        modified:   README.md
+        modified:   apps/projects/views.py
 
 
 
