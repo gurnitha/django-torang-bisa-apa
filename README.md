@@ -690,8 +690,19 @@ Aplikasi untuk orang Indonesia yang kreatif.
 
 
 
+### 24. CRUD SKILLS: BASICS
+### ---------------------------------------
 
 
+#### 24.1 CRUD - Create: Menambahkan logic pada create_skill view method
+
+
+        modified:   README.md
+        modified:   apps/decors/views.py
+
+        NOTE:
+
+        Testing create skill :)
 
 
 

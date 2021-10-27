@@ -1,10 +1,10 @@
 # apps/decors/views.py
 
 # Django modules
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 # Locals
-from apps.decors.models import Profile
+from apps.decors.models import Profile, Skill
 from apps.decors.forms import SkillForm
 
 # profile_list view
@@ -56,6 +56,22 @@ def create_skill(request):
 	# 2. Gunakan SkillForm model
 	form = SkillForm()
 
+	# 3. Proses the form kalau request method adalah POST
+	#    dan jalankan SkillForm model
+	if request.method == "POST":
+
+		# # Tesing the form (opsional): fillin the form and submit it
+		# print(request.POST) # tested :)
+
+		form = SkillForm(request.POST)
+
+		# 4. Validasi form dan jika valid,
+		#    simpan skill
+		if form.is_valid():
+			form.save()
+
+			# 5. Arahkan user ke halaman account
+			return redirect('decors:profile_list')
 
 	# Context dictionary
 	context = {
