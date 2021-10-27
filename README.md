@@ -705,6 +705,28 @@ Aplikasi untuk orang Indonesia yang kreatif.
         Testing create skill :)
 
 
+#### 24.2 CRUD - Update: Membuat update_skill method dan logic-nya
+
+        modified:   README.md
+        modified:   apps/decors/urls.py
+        modified:   apps/decors/views.py
+
+        NOTE:
+
+        STEPS menual untuk meng-update skill
+        (mendapatkan id dari skill yg akan diupdate):
+
+        1. admin > buka skill > copy id nya
+        http://127.0.0.1:8000/admin/decors/skill/ed07300d-9bd9-4a01-bbf7-440dc29f19c9/change/
+
+        2. yang dicopy hanya:
+        ed07300d-9bd9-4a01-bbf7-440dc29f19c9
+
+        3. go to:
+        http://127.0.0.1:8000/update-skill/ed07300d-9bd9-4a01-bbf7-440dc29f19c9/
+        4. Lalu update skill pada form
+
+        Testing :)
 
 
 

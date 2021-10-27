@@ -81,4 +81,38 @@ def create_skill(request):
 	# Template
 	return render(request, 'decors/crud/create_skill.html', context)
 
+
+
+# update_skill view (tampa autentikasi)
+# 1. Tambahkan parameter pk pada update_skill view method
+def update_skill(request, pk):
+
+	# 2. Dapatkan id proyek yang akan diupdate
+	skill = Skill.objects.get(id=pk)
+
+	# 3. Masukan instan skill object ke dalam form
+	form = SkillForm(instance=skill)
+
+	# 4. Proses form jika metode requestnya adalah POST
+	if request.method == 'POST':
+
+		# Testing (opsional)
+		# print(request.POST)
+
+		form = SkillForm(request.POST, instance=skill)
+
+		# 5. Simpan proyek, jika form valid
+		if form.is_valid():
+			form.save()
+
+			# 6. Stlh proyek berhasil di simpan
+			#    Arahkan user ke halaman profile_list
+			return redirect('decors:profile_list')
+
+	# Context dictinary
+	context = {'form':form}
+
+	# Template
+	return render(request, 'decors/crud/create_skill.html', context)
+
 # ----------------------END CRUD SKILLS BASICS------------------
