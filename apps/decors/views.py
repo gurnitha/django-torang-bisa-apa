@@ -4,8 +4,8 @@
 from django.shortcuts import render
 
 # Locals
-from apps.decors.models import Profile, Skill
-
+from apps.decors.models import Profile
+from apps.decors.forms import SkillForm
 
 # profile_list view
 def profile_list(request):
@@ -42,3 +42,27 @@ def profile_detail(request, pk):
 		'otherSkills':otherSkills
 	}
 	return render(request, 'decors/profile_detail.html', context)
+
+
+
+
+# ----------------------CRUD SKILLS BASICS----------------------
+
+
+# create_skill view (tampa autentikasi)
+# 1. Membuat create_skill view method
+def create_skill(request):
+
+	# 2. Gunakan SkillForm model
+	form = SkillForm()
+
+
+	# Context dictionary
+	context = {
+		'form':form,
+	} 
+
+	# Template
+	return render(request, 'decors/crud/create_skill.html', context)
+
+# ----------------------END CRUD SKILLS BASICS------------------

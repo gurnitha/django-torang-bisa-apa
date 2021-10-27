@@ -675,6 +675,19 @@ Aplikasi untuk orang Indonesia yang kreatif.
 
 
 
+### 23. MEMBUAT SKILL FORMS MODEL
+### ---------------------------------------
+
+
+#### 23.1 Membuat create_skill form (Template, Views, Form)
+
+        modified:   README.md
+        new file:   apps/decors/forms.py
+        new file:   apps/decors/templates/decors/crud/create_skill.html
+        modified:   apps/decors/urls.py
+        modified:   apps/decors/views.py
+        modified:   templates/shared/header.html 
+
 
 
 
