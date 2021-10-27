@@ -102,4 +102,28 @@ def update_project(request, pk):
 	# Template
 	return render(request, 'projects/crud/create_project.html', context)
 
+
+
+# delete_project view (tampa autentikasi)
+# 1. Tambahkan parameter pk pada update_project view method
+def delete_project(request, pk):
+
+	# 2. Dapatkan id proyek yang akan diupdate
+	project = Project.objects.get(id=pk)
+
+	# 3. Proses form jika metode requestnya adalah POST
+	#    dan gunakan delete method untuk menghapus proyek
+	if request.method == 'POST':
+
+		project.delete()
+
+		# 4. Stlh proyek berhasil dihapus,
+		#    arahkan user ke halaman project_list
+		return redirect('projects:project_list')
+
+	# Context dictinary
+	context = {'object':project}
+
+	# Template
+	return render(request, 'projects/crud/delete_template.html', context)
 # ----------------------END CRUD PROJECTS------------------

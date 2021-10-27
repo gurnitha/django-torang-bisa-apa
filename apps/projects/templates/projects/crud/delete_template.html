@@ -1,0 +1,21 @@
+<!-- projects/templates/projects/crud/delete_object.html -->
+{% extends 'base.html' %}
+
+{% block title %}
+{{title}}
+{% endblock title %}
+
+	{% block content %}
+
+	<form action="" method="POST">
+		{% csrf_token %}
+		
+		<p>Are you sure you want to delete "{{object}}"?</p>
+		
+		<a href="{% url 'projects:project_list' %}">
+			Go back &larr;
+		</a>
+		<input type="submit" name="Confirm" />	
+	</form>
+
+	{% endblock content %}

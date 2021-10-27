@@ -660,6 +660,15 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/views.py
 
 
+#### 22.4 CRUD - Delete: Membuat delete_project view method dan delete_template.html
+
+        modified:   README.md
+        new file:   apps/projects/templates/projects/crud/delete_template.html
+        modified:   apps/projects/urls.py
+        modified:   apps/projects/views.py
+
+
+
 
 
 
