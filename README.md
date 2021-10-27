@@ -611,7 +611,7 @@ Aplikasi untuk orang Indonesia yang kreatif.
 ### ---------------------------------------
 
 
-#### 22.1 CRUD (ex 21.10) - (Create) Membuat create_project view method
+#### 22.1 CRUD (ex 21.10) - Create: Membuat create_project view method
 
         modified:   .gitignore
         modified:   README.md
@@ -627,8 +627,31 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/views.py
 
 
+#### 22.2 CRUD - Create: Testing create project
 
+        NOTE:
 
+        1. Proyek berhasil dicreate dan disertai pop up error
+           yang a.l menyebutkan 'Reverse for 'profile_detail' with arguments'
+        2. Setelah diperiksa di admin panel, error tersebut disebabkan
+           krn proyek yg dicreate tdk memiliki owner.
+        3. Hal ini mungkin disebabkan krn belum dibuat sistem
+           autentikasi pada aplikasi shg setiap orang bisa membuat
+           proyek baru.
+
+           Jadi, tanpa login user bisa membuat proyek baru.
+
+        SOLUSI:
+        
+        1. Pilih salah satu owner untuk proyek itu.
+        2. Refresh browsernya.
+        3. Done
+
+        NOTE:
+
+        Harus dibuat autentikasi user pada sistem. 
+
+        modified:   README.md
 
 
 
