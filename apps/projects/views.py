@@ -40,7 +40,7 @@ def project_detail(request, pk):
 
 # ----------------------CRUD PROJECTS----------------------
 
-# create_project view
+# create_project view (tampa autentikasi)
 def create_project(request):
 
 	# Bring in the ProjectForm class
@@ -64,6 +64,40 @@ def create_project(request):
 	context = {
 		'form':form,
 	} 
+
+	# Template
+	return render(request, 'projects/crud/create_project.html', context)
+
+
+
+# update_project view (tampa autentikasi)
+# 1. Tambahkan parameter pk pada update_project view method
+def update_project(request, pk):
+
+	# 2. Dapatkan id proyek yang akan diupdate
+	project = Project.objects.get(id=pk)
+
+	# 3. Masukan instan project object ke dalam form
+	form = ProjectForm(instance=project)
+
+	# 4. Proses form jika metode requestnya adalah POST
+	if request.method == 'POST':
+
+		# Testing (opsional)
+		# print(request.POST)
+
+		form = ProjectForm(request.POST, instance=project)
+
+		# 5. Simpan proyek, jika form valid
+		if form.is_valid():
+			form.save()
+
+			# 6. Stlh proyek berhasil di simpan
+			#    Arahkan user ke halaman project_list
+			return redirect('projects:project_list')
+
+	# Context dictinary
+	context = {'form':form}
 
 	# Template
 	return render(request, 'projects/crud/create_project.html', context)

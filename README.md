@@ -654,9 +654,10 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   README.md
 
 
+#### 22.3 CRUD - Update: Membuat update_project view method
 
-
-
+        modified:   apps/projects/urls.py
+        modified:   apps/projects/views.py
 
 
 
