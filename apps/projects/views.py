@@ -38,7 +38,7 @@ def project_detail(request, pk):
 	return render(request, 'projects/project_detail.html', context)
 
 
-# ----------------------CRUD PROJECTS----------------------
+# ----------------------CRUD PROJECTS BASICS----------------------
 
 # create_project view (tampa autentikasi)
 def create_project(request):
@@ -126,4 +126,4 @@ def delete_project(request, pk):
 
 	# Template
 	return render(request, 'projects/crud/delete_template.html', context)
-# ----------------------END CRUD PROJECTS------------------
+# ----------------------END CRUD PROJECTS BASICS------------------

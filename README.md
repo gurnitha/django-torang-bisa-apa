@@ -607,7 +607,7 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/forms.py
 
 
-### 22. CRUD PROJECTS
+### 22. CRUD PROJECTS: BASICS
 ### ---------------------------------------
 
 
@@ -668,6 +668,10 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/views.py
 
 
+#### 22.5 House keeping: Modifikasi README.md dan views file
+
+        modified:   README.md
+        modified:   apps/projects/views.py
 
 
 
