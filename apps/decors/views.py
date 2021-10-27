@@ -115,4 +115,28 @@ def update_skill(request, pk):
 	# Template
 	return render(request, 'decors/crud/create_skill.html', context)
 
+
+
+# delete_skill view (tampa autentikasi)
+# 1. Tambahkan parameter pk pada delete_skill view method
+def delete_skill(request, pk):
+
+	# 2. Dapatkan id skill yang akan didelete
+	skill = Skill.objects.get(id=pk)
+
+	# 3. Proses form jika metode requestnya adalah POST
+	#    dan gunakan delete method untuk menghapus skill
+	if request.method == 'POST':
+
+		skill.delete()
+
+		# 4. Stlh skill berhasil dihapus,
+		#    arahkan user ke halaman skill_list
+		return redirect('decors:profile_list')
+
+	# Context dictinary
+	context = {'object':skill}
+
+	# Template
+	return render(request, 'decors/crud/delete_template.html', context)
 # ----------------------END CRUD SKILLS BASICS------------------

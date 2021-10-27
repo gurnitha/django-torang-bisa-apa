@@ -729,8 +729,12 @@ Aplikasi untuk orang Indonesia yang kreatif.
         Testing :)
 
 
+#### 24.3 CRUD - Delete: Membuat delete_skill method dan logic-nya
 
-
+        modified:   README.md
+        new file:   apps/decors/templates/decors/crud/delete_template.html
+        modified:   apps/decors/urls.py
+        modified:   apps/decors/views.py
 
 
 
