@@ -540,7 +540,7 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/templates/projects/project_detail.html
 
 
-### 21. CRUD PROJECTS: FORMS
+### 21. MEMBUAT FORMS MODEL
 ### ---------------------------------------
 
 
@@ -607,16 +607,24 @@ Aplikasi untuk orang Indonesia yang kreatif.
         modified:   apps/projects/forms.py
 
 
-#### 21.10 CRUD - (C) Create project
+### 22. CRUD PROJECTS
+### ---------------------------------------
+
+
+#### 22.1 CRUD (ex 21.10) - (Create) Membuat create_project view method
 
         modified:   .gitignore
         modified:   README.md
         modified:   apps/projects/views.py
 
+        NOTE:
 
+        1. Modifikasi README file
+        2. Judul asli 21.10: 
+           21.10 CRUD - (C) Create project
 
-
-
+        modified:   README.md
+        modified:   apps/projects/views.py
 
 
 

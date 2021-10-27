@@ -38,6 +38,8 @@ def project_detail(request, pk):
 	return render(request, 'projects/project_detail.html', context)
 
 
+# ----------------------CRUD PROJECTS----------------------
+
 # create_project view
 def create_project(request):
 
@@ -65,3 +67,5 @@ def create_project(request):
 
 	# Template
 	return render(request, 'projects/crud/create_project.html', context)
+
+# ----------------------END CRUD PROJECTS------------------
